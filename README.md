@@ -4,7 +4,7 @@
 This is a simple header file made to simplify debugging Arduino and Espressif (ESP8266 - ESP32) code.
 
 With this helper you can output debug lines through Serial class with a "printf style" using **DEBUG_PRINT** or **DEBUG_PRINT_P** macro.<br />
-The first is used with normal stringsstored in SRAM, the second is used with strings stored in FLASH declared with PSTR(). The use of F() macro is not supported yet.<br />
+The first is used with normal strings stored in SRAM, the second is used with strings stored in FLASH declared with PSTR(). The use of F() macro is not supported yet.<br />
 The use of PSTR() is allowed only for the first format string. The strings passed as parameters must be stored in SRAM.
 
 Here are some examples <br />
