@@ -48,3 +48,10 @@ is defined, debug lines will be compiled otherwise not.<br />
 If the preprocessor macro<br />
 `#define DEBUG_TIME_MILLIS`<br />
 is defined, before the output text DebugHelper will print a time stamp using millis() function.
+
+Use the preprocessor macro<br />
+`#define DEBUG_PREFIX`<br />
+to define a string as PREFIX to be added in each line. This is done to better point out deug messages.<br />
+Example
+
+`#define DEBUG_PREFIX [DEBUG MSG]`<br />
